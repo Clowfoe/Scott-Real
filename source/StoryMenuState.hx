@@ -25,6 +25,7 @@ class StoryMenuState extends MusicBeatState
 
 	var weekData:Array<Dynamic> = [
 		['Stupid Nintendo Games', 'Why Dont You Play Them', 'Breakout', 'Closing In']
+		//['Closing In']//I like higurashi
 	];
 	var curDifficulty:Int = 1;
 

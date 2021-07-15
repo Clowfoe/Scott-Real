@@ -422,7 +422,7 @@ class DialogueBox extends FlxSpriteGroup
 				portraitLeft.visible = false;
 				if (!portraitLeft.visible)
 				{
-					portraitRight.frames = Paths.getSparrowAtlas('characters/portraits/gfClean', 'shared');
+					portraitRight.frames = Paths.getSparrowAtlas('characters/portraits/gfPortrait', 'shared');
 					portraitRight.animation.addByPrefix('enter', 'Girlfriend portrait enter', 24, false);
 					portraitRight.setGraphicSize(Std.int(portraitRight.width * 1 * 0.75));
 					portraitRight.antialiasing = true;
