@@ -155,6 +155,7 @@ class PlayState extends MusicBeatState
 	var currentFrames:Int = 0;
 
 	public var dialogue:Array<String> = ['dad:blah blah blah', 'bf:coolswag'];
+	public var extra1:Array<String> = ['dad:blah blah blah', 'bf:coolswag'];
 
 	var halloweenBG:FlxSprite;
 	var isHalloween:Bool = false;
@@ -181,6 +182,9 @@ class PlayState extends MusicBeatState
 	var songScoreDef:Int = 0;
 	var scoreTxt:FlxText;
 	var replayTxt:FlxText;
+	
+	var doof:DialogueBox;
+	var doof2:DialogueBox;
 
 	public static var campaignScore:Int = 0;
 
@@ -1011,7 +1015,7 @@ class PlayState extends MusicBeatState
 		doof.scrollFactor.set();
 		doof.finishThing = startCountdown;
 		
-		var doof2:DialogueBox = new DialogueBox(false, extra1);
+		doof2 = new DialogueBox(false, extra1);
 		doof2.scrollFactor.set();
 		doof2.finishThing = endSong;
 
@@ -1098,7 +1102,7 @@ class PlayState extends MusicBeatState
 		ass2.animation.play('Border Bump');
 		ass2.scrollFactor.set();
 		ass2.screenCenter();
-		if (curSong == 'closing-in')
+		if (curSong == 'Closing In')
 			{
 				add(ass2);
 			}
