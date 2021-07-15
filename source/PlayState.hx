@@ -2799,7 +2799,14 @@ class PlayState extends MusicBeatState
 					PlayState.SONG = Song.loadFromJson(nextSongLowercase + difficulty, PlayState.storyPlaylist[0]);
 					FlxG.sound.music.stop();
 
-					LoadingState.loadAndSwitchState(new PlayState());
+					if (curSong == 'Breakout')
+						{
+							LoadingState.loadAndSwitchState(new VideoState('assets/videos/end/vid.webm',new PlayState()));
+						}
+					else
+						{
+							LoadingState.loadAndSwitchState(new PlayState());
+						}
 				}
 			}
 			else
