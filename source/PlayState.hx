@@ -1231,8 +1231,6 @@ class PlayState extends MusicBeatState
 					schoolIntro(doof);
 				case 'breakout':
 					schoolIntro(doof);
-				case 'closing-in':
-					schoolIntro(doof);
 				case 'roses':
 					FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
@@ -2620,6 +2618,9 @@ class PlayState extends MusicBeatState
 		if (!inCutscene)
 			keyShit();
 
+		if (FlxG.keys.justPressed.ONE)
+			endSong();
+
 
 		#if debug
 		if (FlxG.keys.justPressed.ONE)
@@ -2638,9 +2639,12 @@ class PlayState extends MusicBeatState
 				trace('story mode beby');
 				switch (StringTools.replace(curSong," ", "-").toLowerCase())
 				{
+					case 'breakout':
+						endcutscene(doof2);
 					case 'closing-in':
 						trace('hey work plz');
 						endcutscene(doof2);
+						
 					default:
 						endSong();
 				}
@@ -2675,6 +2679,8 @@ class PlayState extends MusicBeatState
 					}
 			trace(inCutscene);
 		}
+
+		
 
 	function endSong():Void
 	{
@@ -2733,13 +2739,14 @@ class PlayState extends MusicBeatState
 
 				if (storyPlaylist.length <= 0)
 				{
-					FlxG.sound.playMusic(Paths.music('freakyMenu'));
 
 					transIn = FlxTransitionableState.defaultTransIn;
 					transOut = FlxTransitionableState.defaultTransOut;
 
-					FlxG.switchState(new StoryMenuState());
+					
+					LoadingState.loadAndSwitchState(new VideoState('assets/videos/weekend/weekend.webm',new StoryMenuState()));
 
+					FlxG.sound.playMusic(Paths.music('freakyMenu'));
 					#if windows
 					if (luaModchart != null)
 					{

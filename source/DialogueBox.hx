@@ -129,6 +129,8 @@ class DialogueBox extends FlxSpriteGroup
 		imageOverlay.x = 0;
 		imageOverlay.y = 0;
 		add(imageOverlay);
+		imageOverlay.visible = false;
+
 	}
 
 	var dialogueOpened:Bool = false;
@@ -248,7 +250,7 @@ class DialogueBox extends FlxSpriteGroup
 					// portraitRight.screenCenter(X);
 
 					portraitRight.x = (box.x + box.width) - (portraitRight.width) - 110;
-					portraitRight.y = box.y - 188;
+					portraitRight.y = box.y - 180;
 
 					portraitRight.scale.x = 1.2;
 					portraitRight.scale.y = 1.2;
@@ -391,7 +393,7 @@ class DialogueBox extends FlxSpriteGroup
 					// portraitLeft.screenCenter(X);
 
 					portraitLeft.x = box.x + 64;
-					portraitLeft.y = box.y - 224;
+					portraitLeft.y = box.y - 200;
 
 					portraitLeft.visible = true;
 					portraitLeft.animation.play('enter');
@@ -417,7 +419,7 @@ class DialogueBox extends FlxSpriteGroup
 					portraitLeft.animation.play('enter');
 				}
 			case 'gf':
-				swagDialogue.sounds = [FlxG.sound.load(Paths.sound('scottText'), 0.6)];
+				swagDialogue.sounds = [FlxG.sound.load(Paths.sound('gfText'), 0.6)];
 				swagDialogue.color = FlxColor.fromRGB(238, 21, 54);
 				portraitLeft.visible = false;
 				if (!portraitLeft.visible)
@@ -430,11 +432,11 @@ class DialogueBox extends FlxSpriteGroup
 					portraitRight.scrollFactor.set();
 					// portraitRight.screenCenter(X);
 
-					portraitRight.x = (box.x + box.width) - (portraitRight.width) - 110;
-					portraitRight.y = box.y - 188;
+					portraitRight.x = (box.x + box.width) - (portraitRight.width) - 150;
+					portraitRight.y = box.y - 210;
 
-					portraitRight.scale.x = 1.2;
-					portraitRight.scale.y = 1.2;
+					portraitRight.scale.x = 1.0;
+					portraitRight.scale.y = 1.0;
 
 					portraitRight.visible = true;
 					portraitRight.animation.play('enter');
