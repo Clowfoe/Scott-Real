@@ -129,6 +129,8 @@ class DialogueBox extends FlxSpriteGroup
 		imageOverlay.x = 0;
 		imageOverlay.y = 0;
 		add(imageOverlay);
+		imageOverlay.visible = false;
+
 	}
 
 	var dialogueOpened:Bool = false;
