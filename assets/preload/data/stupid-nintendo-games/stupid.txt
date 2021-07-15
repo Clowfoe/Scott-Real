@@ -1,12 +1,19 @@
-:dad:Oh no! I really forgot to put up that “No Sex Allowed” on my door... Now what am I gonna do??
-:dad:Okay, now you might be thinking; “Oh no Scott, Friday Night Funkin”?  Now you’re NEVER going to be laid!” 
-:dad:First of all, I talk about video games.
-:dad:Second of all, we’ve already had two world wars anyway; who the hell cares if we have another one?
-:dad:Friday Night Funkin’ is a unique twist to the whole rhythm game genre and gives a whole new approach...
-:dad:… kinda like Rhythm Doctor without a medical degree!
-:dad:Singing against an opponent to a rap battle just gives more flavor to the entire genre and is just so original!  
-:dad:I mean even I can sing against my mortal enemies now! 
-:dad:… but c'mon, why would a 23 year old human need something other than a singular hobby talking about video games…
-:dad:I mean BAM!  Look at all my music that I’ve sang that doesn't revolve or relate to my crippling obsessive hobbies! 
-:dad:DAMMIT!
-
+:playMusic:Dialogue_1
+:scott:Oh no! I really forgot to put up that "No Sex Allowed" sign on my door... Now what am I gonna do?
+:scott:Okay, now you might be thinking; "Oh no Scott, Friday Night Funkin? Now you're NEVER going to be laid!"
+:scott:First of all, I talk about video games.
+:scott:Second of all, we've already had two world wars anyway; who the hell cares if we have another one?
+:scott:Friday Night Funkin' is a unique twist to the whole rhythm game genre and gives a whole new approach...
+:scott:...kinda like Rhythm Doctor without a medical degree!
+:scott:Singing against an opponent to a rap battle just gives more flavor to the entire genre and is just so original!
+:scott:I mean even I can sing against my mortal enemies now!
+:scott:...but c'mon, why would a 23 year old human need something other than a singular hobby talking about video games...
+:scott:I mean BAM! Look at all my music that I've sang that doesn't revolve or relate to my crippling obsessive hobbies!
+:cutsceneModeEnable:
+:showImage:DialogueIncidental
+:pauseMusic:
+:waitToAdvance:5
+:hideImage:
+:resumeMusic:
+:cutsceneModeDisable:
+:scott-pain:DAMNIT!!

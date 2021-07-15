@@ -339,6 +339,12 @@ class PlayState extends MusicBeatState
 				];
 			case 'stupid-nintendo-games':
 				dialogue = CoolUtil.coolTextFile(Paths.txt('stupid-nintendo-games/stupid'));
+			case 'why-dont-you-play-them':
+				dialogue = CoolUtil.coolTextFile(Paths.txt('why-dont-you-play-them/why'));
+			case 'breakout':
+				dialogue = CoolUtil.coolTextFile(Paths.txt('breakout/break'));
+			case 'closing-in':
+				dialogue = CoolUtil.coolTextFile(Paths.txt('closing-in/closing'));
 			case 'roses':
 				dialogue = CoolUtil.coolTextFile(Paths.txt('roses/rosesDialogue'));
 			case 'thorns':
@@ -1212,6 +1218,10 @@ class PlayState extends MusicBeatState
 				case 'senpai':
 					schoolIntro(doof);
 				case 'stupid-nintendo-games':
+					schoolIntro(doof);
+				case 'why-dont-you-play-them':
+					schoolIntro(doof);
+				case 'breakout':
 					schoolIntro(doof);
 				case 'roses':
 					FlxG.sound.play(Paths.sound('ANGRY'));
