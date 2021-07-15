@@ -209,7 +209,7 @@ class VideoState extends MusicBeatState
 			notDone = false;
 			FlxG.sound.music.volume = fuckingVolume;
 			txt.text = pauseText;
-			FlxG.autoPause = true;
+			
 			FlxG.switchState(transClass);
 		}
 		
