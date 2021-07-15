@@ -2738,7 +2738,11 @@ class PlayState extends MusicBeatState
 					transIn = FlxTransitionableState.defaultTransIn;
 					transOut = FlxTransitionableState.defaultTransOut;
 
-					FlxG.switchState(new StoryMenuState());
+					if (SONG.song.toLowerCase() == 'closing-in') {
+						LoadingState.loadAndSwitchState(new VideoState('assets/videos/weekend/weekend.webm',new PlayState()));
+					} else {
+						FlxG.switchState(new StoryMenuState());
+					}
 
 					#if windows
 					if (luaModchart != null)

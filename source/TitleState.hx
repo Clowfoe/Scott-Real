@@ -397,11 +397,9 @@ class TitleState extends MusicBeatState
 		{
 			case 1:
 				createCoolText(['THE SCOTT DEV TEAM']);
-				addMoreText(['PRESENTS']);
 			// credTextShit.visible = true;
 			case 3:
-				createCoolText(['THE SCOTT DEV TEAM']);
-				addMoreText(['PRESENTS']);
+				addMoreText('presents');
 			// credTextShit.text += '\npresent...';
 			// credTextShit.addText();
 			case 4:
