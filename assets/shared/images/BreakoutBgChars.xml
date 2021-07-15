@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BreakoutBgChars.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="All Friends0000" x="0" y="0" width="2098" height="731" frameX="0" frameY="-62" frameWidth="2098" frameHeight="793"/>
+	<SubTexture name="All Friends0001" x="0" y="0" width="2098" height="731" frameX="0" frameY="-62" frameWidth="2098" frameHeight="793"/>
+	<SubTexture name="All Friends0002" x="0" y="731" width="2076" height="751" frameX="-10" frameY="-42" frameWidth="2098" frameHeight="793"/>
+	<SubTexture name="All Friends0003" x="0" y="731" width="2076" height="751" frameX="-10" frameY="-42" frameWidth="2098" frameHeight="793"/>
+	<SubTexture name="All Friends0004" x="0" y="1482" width="2068" height="774" frameX="-14" frameY="-19" frameWidth="2098" frameHeight="793"/>
+	<SubTexture name="All Friends0005" x="0" y="1482" width="2068" height="774" frameX="-14" frameY="-19" frameWidth="2098" frameHeight="793"/>
+	<SubTexture name="All Friends0006" x="0" y="2256" width="2067" height="793" frameX="-14" frameY="0" frameWidth="2098" frameHeight="793"/>
+	<SubTexture name="All Friends0007" x="0" y="2256" width="2067" height="793" frameX="-14" frameY="0" frameWidth="2098" frameHeight="793"/>
+	<SubTexture name="All Friends0008" x="0" y="2256" width="2067" height="793" frameX="-14" frameY="0" frameWidth="2098" frameHeight="793"/>
+	<SubTexture name="All Friends0009" x="0" y="2256" width="2067" height="793" frameX="-14" frameY="0" frameWidth="2098" frameHeight="793"/>
+	<SubTexture name="All Friends0010" x="0" y="2256" width="2067" height="793" frameX="-14" frameY="0" frameWidth="2098" frameHeight="793"/>
+	<SubTexture name="All Friends0011" x="0" y="2256" width="2067" height="793" frameX="-14" frameY="0" frameWidth="2098" frameHeight="793"/>
+	<SubTexture name="All Friends0012" x="0" y="2256" width="2067" height="793" frameX="-14" frameY="0" frameWidth="2098" frameHeight="793"/>
+	<SubTexture name="All Friends0013" x="0" y="2256" width="2067" height="793" frameX="-14" frameY="0" frameWidth="2098" frameHeight="793"/>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="RPGBgChars.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Vegans0000" x="0" y="0" width="1336" height="732" frameX="0" frameY="-60" frameWidth="1336" frameHeight="792"/>
+	<SubTexture name="Vegans0001" x="0" y="0" width="1336" height="732" frameX="0" frameY="-60" frameWidth="1336" frameHeight="792"/>
+	<SubTexture name="Vegans0002" x="1336" y="0" width="1316" height="751" frameX="-10" frameY="-40" frameWidth="1336" frameHeight="792"/>
+	<SubTexture name="Vegans0003" x="1336" y="0" width="1316" height="751" frameX="-10" frameY="-40" frameWidth="1336" frameHeight="792"/>
+	<SubTexture name="Vegans0004" x="2652" y="0" width="1304" height="774" frameX="-18" frameY="-17" frameWidth="1336" frameHeight="792"/>
+	<SubTexture name="Vegans0005" x="2652" y="0" width="1304" height="774" frameX="-18" frameY="-17" frameWidth="1336" frameHeight="792"/>
+	<SubTexture name="Vegans0006" x="0" y="774" width="1302" height="791" frameX="-19" frameY="0" frameWidth="1336" frameHeight="792"/>
+	<SubTexture name="Vegans0007" x="0" y="774" width="1302" height="791" frameX="-19" frameY="0" frameWidth="1336" frameHeight="792"/>
+	<SubTexture name="Vegans0008" x="0" y="774" width="1302" height="791" frameX="-19" frameY="0" frameWidth="1336" frameHeight="792"/>
+	<SubTexture name="Vegans0009" x="0" y="774" width="1302" height="791" frameX="-19" frameY="0" frameWidth="1336" frameHeight="792"/>
+	<SubTexture name="Vegans0010" x="0" y="774" width="1302" height="791" frameX="-19" frameY="0" frameWidth="1336" frameHeight="792"/>
+	<SubTexture name="Vegans0011" x="0" y="774" width="1302" height="791" frameX="-19" frameY="0" frameWidth="1336" frameHeight="792"/>
+	<SubTexture name="Vegans0012" x="0" y="774" width="1302" height="791" frameX="-19" frameY="0" frameWidth="1336" frameHeight="792"/>
+	<SubTexture name="Vegans0013" x="0" y="774" width="1302" height="791" frameX="-19" frameY="0" frameWidth="1336" frameHeight="792"/>
+</TextureAtlas>
