@@ -347,8 +347,8 @@ class PlayState extends MusicBeatState
 				dialogue = CoolUtil.coolTextFile(Paths.txt('why-dont-you-play-them/why'));
 			case 'breakout':
 				dialogue = CoolUtil.coolTextFile(Paths.txt('breakout/break'));
-				extra1 = CoolUtil.coolTextFile(Paths.txt('closing-in/closing'));
 			case 'closing-in':
+				dialogue = CoolUtil.coolTextFile(Paths.txt('closing-in/closing'));
 				extra1 = CoolUtil.coolTextFile(Paths.txt('closing-in/closingEnd'));
 			case 'roses':
 				dialogue = CoolUtil.coolTextFile(Paths.txt('roses/rosesDialogue'));
