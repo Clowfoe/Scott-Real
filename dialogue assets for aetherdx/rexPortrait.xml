@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rexPortrait.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Rex Portrait Enter0000" x="0" y="0" width="339" height="324" frameX="0" frameY="0" frameWidth="351" frameHeight="324"/>
+	<SubTexture name="Rex Portrait Enter0001" x="339" y="0" width="339" height="324" frameX="-6" frameY="0" frameWidth="351" frameHeight="324"/>
+	<SubTexture name="Rex Portrait Enter0002" x="339" y="0" width="339" height="324" frameX="-6" frameY="0" frameWidth="351" frameHeight="324"/>
+	<SubTexture name="Rex Portrait Enter0003" x="678" y="0" width="340" height="324" frameX="-8" frameY="0" frameWidth="351" frameHeight="324"/>
+	<SubTexture name="Rex Portrait Enter0004" x="678" y="0" width="340" height="324" frameX="-8" frameY="0" frameWidth="351" frameHeight="324"/>
+	<SubTexture name="Rex Portrait Enter0005" x="0" y="324" width="340" height="324" frameX="-11" frameY="0" frameWidth="351" frameHeight="324"/>
+	<SubTexture name="Rex Portrait Enter0006" x="0" y="324" width="340" height="324" frameX="-11" frameY="0" frameWidth="351" frameHeight="324"/>
+	<SubTexture name="Rex Portrait Enter0007" x="0" y="324" width="340" height="324" frameX="-11" frameY="0" frameWidth="351" frameHeight="324"/>
+	<SubTexture name="Rex Portrait Enter0008" x="0" y="324" width="340" height="324" frameX="-11" frameY="0" frameWidth="351" frameHeight="324"/>
+	<SubTexture name="Rex Portrait Enter0009" x="0" y="324" width="340" height="324" frameX="-11" frameY="0" frameWidth="351" frameHeight="324"/>
+</TextureAtlas>

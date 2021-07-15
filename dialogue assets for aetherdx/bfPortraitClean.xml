@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bfPortraitClean.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Boyfriend portrait enter clean0000" x="0" y="0" width="396" height="224" frameX="-17" frameY="0" frameWidth="413" frameHeight="224"/>
+	<SubTexture name="Boyfriend portrait enter clean0001" x="396" y="0" width="396" height="224" frameX="-7" frameY="0" frameWidth="413" frameHeight="224"/>
+	<SubTexture name="Boyfriend portrait enter clean0002" x="396" y="0" width="396" height="224" frameX="-7" frameY="0" frameWidth="413" frameHeight="224"/>
+	<SubTexture name="Boyfriend portrait enter clean0003" x="0" y="224" width="396" height="224" frameX="-3" frameY="0" frameWidth="413" frameHeight="224"/>
+	<SubTexture name="Boyfriend portrait enter clean0004" x="0" y="224" width="396" height="224" frameX="-3" frameY="0" frameWidth="413" frameHeight="224"/>
+	<SubTexture name="Boyfriend portrait enter clean0005" x="396" y="224" width="397" height="224" frameX="0" frameY="0" frameWidth="413" frameHeight="224"/>
+	<SubTexture name="Boyfriend portrait enter clean0006" x="396" y="224" width="397" height="224" frameX="0" frameY="0" frameWidth="413" frameHeight="224"/>
+	<SubTexture name="Boyfriend portrait enter clean0007" x="396" y="224" width="397" height="224" frameX="0" frameY="0" frameWidth="413" frameHeight="224"/>
+	<SubTexture name="Boyfriend portrait enter clean0008" x="396" y="224" width="397" height="224" frameX="0" frameY="0" frameWidth="413" frameHeight="224"/>
+	<SubTexture name="Boyfriend portrait enter clean0009" x="396" y="224" width="397" height="224" frameX="0" frameY="0" frameWidth="413" frameHeight="224"/>
+</TextureAtlas>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="scottPortrait.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Scott Portrait Enter0000" x="0" y="0" width="490" height="344" frameX="0" frameY="0" frameWidth="502" frameHeight="344"/>
+	<SubTexture name="Scott Portrait Enter0001" x="490" y="0" width="490" height="344" frameX="-6" frameY="0" frameWidth="502" frameHeight="344"/>
+	<SubTexture name="Scott Portrait Enter0002" x="490" y="0" width="490" height="344" frameX="-6" frameY="0" frameWidth="502" frameHeight="344"/>
+	<SubTexture name="Scott Portrait Enter0003" x="0" y="344" width="491" height="344" frameX="-8" frameY="0" frameWidth="502" frameHeight="344"/>
+	<SubTexture name="Scott Portrait Enter0004" x="0" y="344" width="491" height="344" frameX="-8" frameY="0" frameWidth="502" frameHeight="344"/>
+	<SubTexture name="Scott Portrait Enter0005" x="491" y="344" width="491" height="344" frameX="-11" frameY="0" frameWidth="502" frameHeight="344"/>
+	<SubTexture name="Scott Portrait Enter0006" x="491" y="344" width="491" height="344" frameX="-11" frameY="0" frameWidth="502" frameHeight="344"/>
+	<SubTexture name="Scott Portrait Enter0007" x="491" y="344" width="491" height="344" frameX="-11" frameY="0" frameWidth="502" frameHeight="344"/>
+	<SubTexture name="Scott Portrait Enter0008" x="491" y="344" width="491" height="344" frameX="-11" frameY="0" frameWidth="502" frameHeight="344"/>
+	<SubTexture name="Scott Portrait Enter0009" x="491" y="344" width="491" height="344" frameX="-11" frameY="0" frameWidth="502" frameHeight="344"/>
+</TextureAtlas>
