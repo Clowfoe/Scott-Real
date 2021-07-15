@@ -1231,6 +1231,8 @@ class PlayState extends MusicBeatState
 					schoolIntro(doof);
 				case 'breakout':
 					schoolIntro(doof);
+				case 'closing-in':
+					schoolIntro(doof);
 				case 'roses':
 					FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
@@ -2630,12 +2632,14 @@ class PlayState extends MusicBeatState
 			FlxG.sound.music.volume = 0;
 			vocals.volume = 0;
 			canPause = false;
-
+			trace('songOutro is here');
 			if (isStoryMode)
 			{
-				switch (curSong.toLowerCase())
+				trace('story mode beby');
+				switch (StringTools.replace(curSong," ", "-").toLowerCase())
 				{
 					case 'closing-in':
+						trace('hey work plz');
 						endcutscene(doof2);
 					default:
 						endSong();
@@ -2643,7 +2647,7 @@ class PlayState extends MusicBeatState
 			}
 			else
 				{
-					switch (curSong.toLowerCase())
+					switch (StringTools.replace(curSong," ", "-").toLowerCase())
 					{
 						default:
 							endSong();
