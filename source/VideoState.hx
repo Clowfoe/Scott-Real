@@ -202,7 +202,7 @@ class VideoState extends MusicBeatState
 		if (controls.ACCEPT || GlobalVideo.get().ended)
 		{
 			notDone = false;
-			FlxG.sound.music.volume = fuckingVolume;
+
 			txt.text = pauseText;
 			FlxG.autoPause = true;
 			FlxG.switchState(transClass);
