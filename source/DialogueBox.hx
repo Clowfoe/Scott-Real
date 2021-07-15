@@ -433,8 +433,8 @@ class DialogueBox extends FlxSpriteGroup
 					portraitRight.x = (box.x + box.width) - (portraitRight.width) - 110;
 					portraitRight.y = box.y - 188;
 
-					portraitRight.scale.x = 1.2;
-					portraitRight.scale.y = 1.2;
+					portraitRight.scale.x = 0.8;
+					portraitRight.scale.y = 0.8;
 
 					portraitRight.visible = true;
 					portraitRight.animation.play('enter');
