@@ -2618,6 +2618,9 @@ class PlayState extends MusicBeatState
 		if (!inCutscene)
 			keyShit();
 
+		if (FlxG.keys.justPressed.ONE)
+			endSong();
+
 
 		#if debug
 		if (FlxG.keys.justPressed.ONE)
@@ -2641,6 +2644,7 @@ class PlayState extends MusicBeatState
 					case 'closing-in':
 						trace('hey work plz');
 						endcutscene(doof2);
+						
 					default:
 						endSong();
 				}
@@ -2675,6 +2679,8 @@ class PlayState extends MusicBeatState
 					}
 			trace(inCutscene);
 		}
+
+		
 
 	function endSong():Void
 	{
@@ -2738,11 +2744,8 @@ class PlayState extends MusicBeatState
 					transIn = FlxTransitionableState.defaultTransIn;
 					transOut = FlxTransitionableState.defaultTransOut;
 
-					if (SONG.song.toLowerCase() == 'closing-in') {
-						LoadingState.loadAndSwitchState(new VideoState('assets/videos/weekend/weekend.webm',new PlayState()));
-					} else {
-						FlxG.switchState(new StoryMenuState());
-					}
+					
+					LoadingState.loadAndSwitchState(new VideoState('assets/videos/weekend/weekend.webm',new StoryMenuState()));
 
 					#if windows
 					if (luaModchart != null)
