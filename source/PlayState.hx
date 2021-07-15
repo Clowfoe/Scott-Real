@@ -345,6 +345,7 @@ class PlayState extends MusicBeatState
 				dialogue = CoolUtil.coolTextFile(Paths.txt('breakout/break'));
 			case 'closing-in':
 				dialogue = CoolUtil.coolTextFile(Paths.txt('closing-in/closing'));
+				extra1 = CoolUtil.coolTextFile(Paths.txt('closing-in/closingEnd'));
 			case 'roses':
 				dialogue = CoolUtil.coolTextFile(Paths.txt('roses/rosesDialogue'));
 			case 'thorns':
@@ -1007,10 +1008,12 @@ class PlayState extends MusicBeatState
 		}
 
 		var doof:DialogueBox = new DialogueBox(false, dialogue);
-		// doof.x += 70;
-		// doof.y = FlxG.height * 0.5;
 		doof.scrollFactor.set();
 		doof.finishThing = startCountdown;
+		
+		var doof2:DialogueBox = new DialogueBox(false, extra1);
+		doof2.scrollFactor.set();
+		doof2.finishThing = endSong;
 
 		Conductor.songPosition = -5000;
 		
@@ -1165,6 +1168,7 @@ class PlayState extends MusicBeatState
 		iconP2.cameras = [camHUD];
 		scoreTxt.cameras = [camHUD];
 		doof.cameras = [camHUD];
+		doof2.cameras = [camHUD];
 		if (FlxG.save.data.songPosition)
 		{
 			songPosBG.cameras = [camHUD];
@@ -1486,7 +1490,7 @@ class PlayState extends MusicBeatState
 			FlxG.sound.playMusic(Paths.inst(PlayState.SONG.song), 1, false);
 		}
 
-		FlxG.sound.music.onComplete = endSong;
+		FlxG.sound.music.onComplete = songOutro;
 		vocals.play();
 
 		// Song duration in a float, useful for the time left feature
@@ -2613,9 +2617,56 @@ class PlayState extends MusicBeatState
 
 		#if debug
 		if (FlxG.keys.justPressed.ONE)
-			endSong();
+			songOutro();
 		#end
 	}
+	
+	function songOutro():Void
+		{
+			FlxG.sound.music.volume = 0;
+			vocals.volume = 0;
+			canPause = false;
+
+			if (isStoryMode)
+			{
+				switch (curSong.toLowerCase())
+				{
+					case 'closing-in':
+						endcutscene(doof2);
+					default:
+						endSong();
+				}
+			}
+			else
+				{
+					switch (curSong.toLowerCase())
+					{
+						default:
+							endSong();
+					}
+				}
+		}
+		
+	function endcutscene(?dialogueBox:DialogueBox):Void
+		{
+			inCutscene = true;
+			camZooming = false;
+			startedCountdown = false;
+			generatedMusic = false;
+			canPause = false;
+			vocals.stop();
+			vocals.volume = 0;
+			if (dialogueBox != null)
+			{
+			camFollow.setPosition(dad.getMidpoint().x + 50, boyfriend.getMidpoint().y - 300);
+			add(dialogueBox);
+			}
+				else
+					{
+						endSong();
+					}
+			trace(inCutscene);
+		}
 
 	function endSong():Void
 	{
