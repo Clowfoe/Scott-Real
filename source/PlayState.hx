@@ -1102,7 +1102,7 @@ class PlayState extends MusicBeatState
 		ass2.animation.play('Border Bump');
 		ass2.scrollFactor.set();
 		ass2.screenCenter();
-		if (curSong == 'Closing In')
+		if (curSong == 'closing-in')
 			{
 				add(ass2);
 			}
