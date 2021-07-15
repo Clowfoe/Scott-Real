@@ -2739,7 +2739,6 @@ class PlayState extends MusicBeatState
 
 				if (storyPlaylist.length <= 0)
 				{
-					FlxG.sound.playMusic(Paths.music('freakyMenu'));
 
 					transIn = FlxTransitionableState.defaultTransIn;
 					transOut = FlxTransitionableState.defaultTransOut;
@@ -2747,6 +2746,7 @@ class PlayState extends MusicBeatState
 					
 					LoadingState.loadAndSwitchState(new VideoState('assets/videos/weekend/weekend.webm',new StoryMenuState()));
 
+					FlxG.sound.playMusic(Paths.music('freakyMenu'));
 					#if windows
 					if (luaModchart != null)
 					{
