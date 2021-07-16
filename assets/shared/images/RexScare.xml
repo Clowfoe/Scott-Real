@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="RexScare.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Rex Jumscare0000" x="0" y="0" width="1118" height="742" frameX="0" frameY="0" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0001" x="0" y="0" width="1118" height="742" frameX="0" frameY="0" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0002" x="0" y="0" width="1118" height="742" frameX="0" frameY="0" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0003" x="0" y="0" width="1118" height="742" frameX="0" frameY="0" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0004" x="0" y="0" width="1118" height="742" frameX="0" frameY="0" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0005" x="0" y="0" width="1118" height="742" frameX="0" frameY="0" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0006" x="0" y="0" width="1118" height="742" frameX="0" frameY="0" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0007" x="0" y="0" width="1118" height="742" frameX="0" frameY="0" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0008" x="0" y="0" width="1118" height="742" frameX="0" frameY="0" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0009" x="0" y="0" width="1118" height="742" frameX="0" frameY="0" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0010" x="0" y="0" width="1118" height="742" frameX="0" frameY="0" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0011" x="0" y="0" width="1118" height="742" frameX="0" frameY="0" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0012" x="0" y="0" width="1118" height="742" frameX="0" frameY="0" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0013" x="0" y="0" width="1118" height="742" frameX="0" frameY="0" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0014" x="1118" y="0" width="854" height="726" frameX="-264" frameY="-16" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0015" x="1118" y="0" width="854" height="726" frameX="-264" frameY="-16" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0016" x="0" y="742" width="923" height="637" frameX="-234" frameY="-108" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0017" x="0" y="742" width="923" height="637" frameX="-234" frameY="-108" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0018" x="923" y="742" width="844" height="703" frameX="-274" frameY="-39" frameWidth="1157" frameHeight="745"/>
+	<SubTexture name="Rex Jumscare0019" x="923" y="742" width="844" height="703" frameX="-274" frameY="-39" frameWidth="1157" frameHeight="745"/>
+</TextureAtlas>
